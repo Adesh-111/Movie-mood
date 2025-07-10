@@ -1,8 +1,13 @@
 .emoji-area{
     background-color: white;
-    margin-top: -20px;
-    height: 300px;
+    height: 400px;
     padding-top: 50px;
+}
+
+.emoji-area h2{
+    font-family: Bowlby one;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .emoji-area ul{
@@ -12,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    gap: 30px;
 }
 
 .emoji-area img{
@@ -28,4 +34,13 @@
 .emoji-area img:active{
     scale: 1.5;
 
+}
+
+@media (max-width : 600px) {
+    .emoji-area img{
+        width: 100px;
+    }
+    .emoji-area ul{
+        margin-left: -30px;
+    }
 }

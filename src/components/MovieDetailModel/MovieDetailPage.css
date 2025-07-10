@@ -162,11 +162,38 @@
   .detail-page-container .bg-gradient {
     display: none;
   }
-  .detail-page-container .page-content.content-overlay {
-    color: #222;
-    text-shadow: none;
-    background: #fff;
+
+  .detail-page-container .page-content.content-overlay{
+    padding: 20px;
+    width: 100vw !important;
   }
+
+  .detail-page-container{
+    overflow-x: hidden;
+  }
+
+  .movie-desc{
+    flex-direction: column;
+    
+  }
+
+  .movie-desc p{
+    width: 300px;
+    text-align: justify;
+  }
+
+  .reviews{
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .review{
+  }
+
+  .review p{
+    width: 300px;
+  }
+
   .detail-page-container .sound-toggle-btn {
     top: 8px;
     right: 8px;

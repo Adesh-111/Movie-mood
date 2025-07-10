@@ -244,7 +244,7 @@ function MovieArea() {
         <div className="search-bar">
           <input
             type="text"
-            placeholder="🔍 Search movies by title..."
+            placeholder="Search movies by title..."
             value={searchQuery}
             onChange={(e) => {
               setSelectedGenre(null);

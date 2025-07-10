@@ -4,21 +4,11 @@ import data from "../../Context/ContextAPI";
 function NavBar() {
     return ( <>
     <div className="movie-mood-navbar">
+        <img src={data.logo} alt="" />
         <h1>
-            <img src={data.logo} alt="" />
             {data.name}
         </h1>
-        <ul className="movie-mood-navbar-list">
-            <li>
-                Home
-            </li>
-            <li>
-                Movies
-            </li>
-            <li>
-                Stats
-            </li>
-        </ul>
+        
     </div>
     </> );
 }

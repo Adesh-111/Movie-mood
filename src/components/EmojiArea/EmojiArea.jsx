@@ -24,6 +24,7 @@ function EmojiArea({ onSelectGenre }) {
     <>
     <NavBar />
     <div className="emoji-area">
+      <h2>Select your mood</h2>
       <ul>
         {data.emojis.map((emoji, index) => (
           <li key={index}>
