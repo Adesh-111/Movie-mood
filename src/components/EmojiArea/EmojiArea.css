@@ -1,0 +1,31 @@
+.emoji-area{
+    background-color: white;
+    margin-top: -20px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.emoji-area ul{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.emoji-area img{
+    width: 200px;
+    transition: all 0.5s ease;
+    cursor: pointer
+}
+
+.emoji-area .active{
+    scale: 1.5;
+}
+
+.emoji-area img:hover,
+.emoji-area img:active{
+    scale: 1.5;
+
+}
