@@ -1,15 +1,15 @@
 import { useState } from "react";
 import data from "../../Context/ContextAPI";
 import "./EmojiArea.css";
+import NavBar from "../NavBar/NavBar"
 
-// Mapping index to genre ID
 const emojiGenreMap = {
-  0: 35,   // Happy → Comedy
-  1: 18,   // Sad → Drama
-  2: 16,   // Funny → Animation
-  3: 878,  // MindBlowing → Science Fiction
-  4: 10749,// Romantic → Romance
-  5: 27    // Scary → Horror
+  0: 35,   
+  1: 18,   
+  2: 16,   
+  3: 878,  
+  4: 10749,
+  5: 27   
 };
 
 function EmojiArea({ onSelectGenre }) {
@@ -21,6 +21,8 @@ function EmojiArea({ onSelectGenre }) {
   };
 
   return (
+    <>
+    <NavBar />
     <div className="emoji-area">
       <ul>
         {data.emojis.map((emoji, index) => (
@@ -35,6 +37,7 @@ function EmojiArea({ onSelectGenre }) {
         ))}
       </ul>
     </div>
+    </>
   );
 }
 
