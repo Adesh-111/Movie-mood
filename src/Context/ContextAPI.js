@@ -13,6 +13,7 @@ const data = {
     assets.Emojis.Funny,
     assets.Emojis.MindBlowing,
     assets.Emojis.Romantic,
+    assets.Emojis.Scary
   ],
 };
 
