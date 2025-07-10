@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MovieArea from "./components/MoviesArea/MoviesArea";
 import MovieDetailPage from "./components/MovieDetailModel/MovieDetailPage";
-import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path="/" element={<MovieArea />} />
         <Route path="/movie/:id" element={<MovieDetailPage />} />
-        <Analytics />
       </Routes>
     </Router>
   );
