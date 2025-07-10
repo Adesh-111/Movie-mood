@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MovieArea />} />
         <Route path="/movie/:id" element={<MovieDetailPage />} />
+        <Analytics />
       </Routes>
     </Router>
   );
