@@ -288,8 +288,9 @@ function MovieArea() {
                 <p className="overview">{movie.overview}</p>
               </div>
             ))
-        )}
+        )} 
       </div>
+     
       
       {isLoading && (
         <div style={{ textAlign: "center", padding: "2em" }}>
@@ -302,6 +303,9 @@ function MovieArea() {
           No more movies to load.
         </div>
       )}
+      <h4 className="developer">
+        Made with ❤️ by <a href="https://adesh-dev.vercel.app" target="_blank" rel="noopener noreferrer">Adesh</a> 
+      </h4>
     </>
   );
 }

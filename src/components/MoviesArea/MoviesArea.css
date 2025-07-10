@@ -116,6 +116,38 @@
   font-size: 3rem;
 }
 
+.developer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1em;
+  z-index: 1000;
+  margin: 0;
+  font-family: poppins;
+}
+
+.developer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: Bowlby one;
+}
+
+.developer a:hover {
+  text-decoration: underline;
+}
+
+.developer span {
+  margin-left: 5px;
+}
+
+
 
 @media (max-width : 600px) {
   .filter-sort-bar{
