@@ -16,6 +16,18 @@ MovieMood is a modern movie discovery web app that helps you find movies to matc
 
 ## Screenshots
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebf37c18-4601-4a40-9ae5-dbf4e76382f5" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-10 205519" src="https://github.com/user-attachments/assets/b5d79275-0d8d-4063-88d2-874eef85ed55" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-10 205557" src="https://github.com/user-attachments/assets/be7fa37a-ab8c-4a0e-9c86-30c4681a0569" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d71d0690-d4c6-40f6-a95d-aea1e6b22ece" />
+
+## WorkFlow
+
+
+https://github.com/user-attachments/assets/69c96cc7-8b06-43ce-9499-a470bba22f31
 
 
 ## Getting Started
